@@ -1,0 +1,292 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F62483031C748F4B00219240 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F62483021C748F4B00219240 /* AppDelegate.swift */; };
+		F62483051C748F4B00219240 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F62483041C748F4B00219240 /* ViewController.swift */; };
+		F62483081C748F4C00219240 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F62483061C748F4C00219240 /* Main.storyboard */; };
+		F624830A1C748F4C00219240 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F62483091C748F4C00219240 /* Assets.xcassets */; };
+		F624830D1C748F4C00219240 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F624830B1C748F4C00219240 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F62482FF1C748F4B00219240 /* UCI9DC L54 KeyboardControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UCI9DC L54 KeyboardControl.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F62483021C748F4B00219240 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F62483041C748F4B00219240 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F62483071C748F4C00219240 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F62483091C748F4C00219240 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F624830C1C748F4C00219240 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F624830E1C748F4D00219240 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F62482FC1C748F4B00219240 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F62482F61C748F4B00219240 = {
+			isa = PBXGroup;
+			children = (
+				F62483011C748F4B00219240 /* UCI9DC L54 KeyboardControl */,
+				F62483001C748F4B00219240 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F62483001C748F4B00219240 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F62482FF1C748F4B00219240 /* UCI9DC L54 KeyboardControl.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F62483011C748F4B00219240 /* UCI9DC L54 KeyboardControl */ = {
+			isa = PBXGroup;
+			children = (
+				F62483021C748F4B00219240 /* AppDelegate.swift */,
+				F62483041C748F4B00219240 /* ViewController.swift */,
+				F62483061C748F4C00219240 /* Main.storyboard */,
+				F62483091C748F4C00219240 /* Assets.xcassets */,
+				F624830B1C748F4C00219240 /* LaunchScreen.storyboard */,
+				F624830E1C748F4D00219240 /* Info.plist */,
+			);
+			path = "UCI9DC L54 KeyboardControl";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F62482FE1C748F4B00219240 /* UCI9DC L54 KeyboardControl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F62483111C748F4D00219240 /* Build configuration list for PBXNativeTarget "UCI9DC L54 KeyboardControl" */;
+			buildPhases = (
+				F62482FB1C748F4B00219240 /* Sources */,
+				F62482FC1C748F4B00219240 /* Frameworks */,
+				F62482FD1C748F4B00219240 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UCI9DC L54 KeyboardControl";
+			productName = "UCI9DC L54 KeyboardControl";
+			productReference = F62482FF1C748F4B00219240 /* UCI9DC L54 KeyboardControl.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F62482F71C748F4B00219240 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Stanislav Sidelnikov";
+				TargetAttributes = {
+					F62482FE1C748F4B00219240 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 5C9TGFA48W;
+					};
+				};
+			};
+			buildConfigurationList = F62482FA1C748F4B00219240 /* Build configuration list for PBXProject "UCI9DC L54 KeyboardControl" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F62482F61C748F4B00219240;
+			productRefGroup = F62483001C748F4B00219240 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F62482FE1C748F4B00219240 /* UCI9DC L54 KeyboardControl */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F62482FD1C748F4B00219240 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F624830D1C748F4C00219240 /* LaunchScreen.storyboard in Resources */,
+				F624830A1C748F4C00219240 /* Assets.xcassets in Resources */,
+				F62483081C748F4C00219240 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F62482FB1C748F4B00219240 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F62483051C748F4B00219240 /* ViewController.swift in Sources */,
+				F62483031C748F4B00219240 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F62483061C748F4C00219240 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F62483071C748F4C00219240 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F624830B1C748F4C00219240 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F624830C1C748F4C00219240 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F624830F1C748F4D00219240 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F62483101C748F4D00219240 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F62483121C748F4D00219240 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "UCI9DC L54 KeyboardControl/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.stansidel.UCI9DC-L54-KeyboardControl";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F62483131C748F4D00219240 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "UCI9DC L54 KeyboardControl/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.stansidel.UCI9DC-L54-KeyboardControl";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F62482FA1C748F4B00219240 /* Build configuration list for PBXProject "UCI9DC L54 KeyboardControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F624830F1C748F4D00219240 /* Debug */,
+				F62483101C748F4D00219240 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F62483111C748F4D00219240 /* Build configuration list for PBXNativeTarget "UCI9DC L54 KeyboardControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F62483121C748F4D00219240 /* Debug */,
+				F62483131C748F4D00219240 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F62482F71C748F4B00219240 /* Project object */;
+}
